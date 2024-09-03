@@ -6,6 +6,10 @@ public class Program3
     public static void main(String[] args) {
 
         Program3 p=new Program3();
-        System.out.println(p.s1.equals(p.s2));
+        boolean rs=p.s1.equals(p.s2);
+        if(rs)
+            System.out.println("Strings are Equal");
+        else
+            System.out.println("Strings are not Equal");
     }
 }
