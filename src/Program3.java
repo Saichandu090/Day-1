@@ -1,12 +1,15 @@
+import java.util.Scanner;
+
 public class Program3
 {
-    String s1="Malayalam";
-    String s2="Malayalam";
-
     public static void main(String[] args) {
 
-        Program3 p=new Program3();
-        boolean rs=p.s1.equals(p.s2);
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter first String");
+        String s1=sc.next();
+        System.out.println("Enter second String");
+        String s2=sc.next();
+        boolean rs=s1.equals(s2);
         if(rs)
             System.out.println("Strings are Equal");
         else
